@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>GoMove Traslochi | Traslochi, Sgomberi e Servizi Premium</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0a2540, #133b5c);
+            color: #fff;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        h2 {
+            color: #0a2540;
+            font-size: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .box {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+
+        .box h3 {
+            color: #133b5c;
+            margin-bottom: 10px;
+        }
+
+        .why {
+            background: #fff;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+
+        .why ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .why li {
+            padding: 10px 0;
+            font-size: 16px;
+        }
+
+        .cta {
+            background: linear-gradient(135deg, #133b5c, #0a2540);
+            color: #fff;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .cta h2 {
+            color: #fff;
+        }
+
+        .cta a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #fff;
+            color: #0a2540;
+            font-weight: bold;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        footer {
+            background: #0a2540;
+            color: #aaa;
+            text-align: center;
+            padding: 25px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>GoMove Traslochi</h1>
+    <p>Traslochi, sgomberi e servizi professionali di alto livello</p>
+</header>
+
+<section>
+    <h2>I nostri servizi</h2>
+    <div class="services">
+        <div class="box">
+            <h3>Traslochi Premium</h3>
+            <p>Traslochi per abitazioni, uffici e immobili di pregio. Imballaggi professionali e massima cura di ogni dettaglio.</p>
+        </div>
+
+        <div class="box">
+            <h3>Sgomberi Completi</h3>
+            <p>Sgombero rapido e ordinato di appartamenti, cantine, uffici e locali commerciali, con smaltimento responsabile.</p>
+        </div>
+
+        <div class="box">
+            <h3>Trasporti Specializzati</h3>
+            <p>Trasporto mobili, oggetti delicati, elettrodomestici e merci di valore, anche su lunghe distanze.</p>
+        </div>
+
+        <div class="box">
+            <h3>Pulizie Professionali</h3>
+            <p>Pulizie residenziali e commerciali, post-trasloco e fine lavori, con standard elevati e prodotti professionali.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Perché scegliere GoMove</h2>
+    <div class="why">
+        <ul>
+            <li>✔ Servizio affidabile e puntuale</li>
+            <li>✔ Personale qualificato e discreto</li>
+            <li>✔ Cura assoluta di mobili e ambienti</li>
+            <li>✔ Preventivi chiari e personalizzati</li>
+            <li>✔ Soluzioni su misura per privati e aziende</li>
+        </ul>
+    </div>
+</section>
+
+<div class="cta">
+    <h2>Richiedi il tuo preventivo personalizzato</h2>
+    <p>Rispondiamo rapidamente e senza impegno</p>
+    <a href="tel:+391234567890">📞 123 456 7890</a>
+</div>
+
+<footer>
+    <p>© 2026 GoMove Traslochi – Servizi Premium</p>
+</footer>
+
+</body>
+</html>
